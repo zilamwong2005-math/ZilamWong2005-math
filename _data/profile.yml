@@ -36,17 +36,11 @@ education:
     School of Information Science and Technology <br/>
     B.Sc. in Mathematics
   date: Sep. 2023 - present
-
-research_interests:
-  - Dynamical Systems
-  - Mathematical Physics
-  - Applied Math
   
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+Research_Interest:
+- name: Dynamical Systems
+- name: Mathematical Physics
+- name: Applied Math
 
 awards:
 - name: Outstanding Student Cadre Scholarship

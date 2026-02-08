@@ -16,10 +16,6 @@ navbar_title: Home
         {% include widgets/debug_repo_name.html %}
         {% include widgets/debug_url.html %}
         
-        {% if site.data.display.homepage.show_research %}
-            {% include widgets/research_interests_card.html %}
-        {% endif %}
-        
         {% if site.data.display.homepage.show_experience %}
             {% include widgets/experience_card.html %}
         {% endif %}
