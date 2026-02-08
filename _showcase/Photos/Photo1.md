@@ -6,7 +6,7 @@ group: Photos
 ---
 <div>
 <img src="{{ 'assets/images/etc/Photo1.jpg' | relative_url }}" class="img-fluid rounded-xl" >
-<p class="card-text">
-      My favorite anime character: Yui Yuigahama.
+<p class="card-text text-center my-3">
+    My favorite anime character: <strong>Yui Yuigahama</strong>.
 </p>
 </div>

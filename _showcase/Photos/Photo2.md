@@ -6,7 +6,7 @@ group: Photos
 ---
 <div>
 <img src="{{ 'assets/images/etc/Photo2.jpg' | relative_url }}" class="img-fluid rounded-xl" >
-<p class="card-text">
-      Sketches for my canvas bag design.
+<p class="card-text text-center my-3">
+      <strong>Sketches</strong> for my canvas bag design.
 </p>
 </div>
