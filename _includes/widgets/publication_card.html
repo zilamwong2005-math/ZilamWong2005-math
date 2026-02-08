@@ -1,14 +1,5 @@
 {% assign publications = include.publications %}
 <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
-    
-    <h6 class="border-bottom border-gray p-3 mb-0 text-primary">
-        <i class="fas fa-check-circle"></i> Accepted & Published
-    </h6>
-    {% assign accepted_pubs = site.publications | hide_future_posts | where: "status", "accepted" %}
-    {% for item in accepted_pubs %}
-        {% include widgets/publication_item.html item=item %}
-    {% endfor %}
-
     <h6 class="border-bottom border-gray p-3 mb-0 text-orange" style="color: #e67e22;">
         <i class="fas fa-paper-plane"></i> Submitted & Under Review
     </h6>
@@ -17,8 +8,15 @@
         {% for item in submitted_pubs %}
             {% include widgets/publication_item.html item=item %}
         {% endfor %}
-    {% else %}
-        <p class="p-3 small text-muted">No pending submissions.</p>
+
+    <h6 class="border-bottom border-gray p-3 mb-0 text-primary">
+        <i class="fas fa-check-circle"></i> Accepted & Published
+    </h6>
+    {% assign accepted_pubs = site.publications | hide_future_posts | where: "status", "accepted" %}
+    {% for item in accepted_pubs %}
+        {% include widgets/publication_item.html item=item %}
+    {% endfor %}
+
     {% endif %}
 
     <h6 class="d-block p-3 mt-0 text-right">

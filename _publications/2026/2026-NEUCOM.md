@@ -8,7 +8,7 @@ pub_date:       "2026"
 abstract: >-
   Cover image is a photo by Thomas Renaud on Unsplash. The abstract of the publication is meant to be a TLDR (very brief summary with 1~2 sentences) of your paper.
 
-cover: /assets/images/covers/lipdartsselect.png
+cover: /assets/images/covers/lipdarts.png
 authors:
 - Zilin Wang
 - Qingtian Liu
